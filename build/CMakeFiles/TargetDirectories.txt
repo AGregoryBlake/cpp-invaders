@@ -1,4 +1,0 @@
-/home/greg/workspace/cpp-invaders/build/CMakeFiles/edit_cache.dir
-/home/greg/workspace/cpp-invaders/build/CMakeFiles/cpp-invaders.dir
-/home/greg/workspace/cpp-invaders/build/CMakeFiles/rebuild_cache.dir
-/home/greg/workspace/cpp-invaders/build/CMakeFiles/SDL.dir

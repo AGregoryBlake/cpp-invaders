@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/greg/workspace/cpp-invaders/build",
-  "command": "/usr/bin/c++    -I/home/greg/workspace/cpp-invaders/build/sdl/include   -std=c++1y -Wall -Wextra -Wno-unused-parameter   -o CMakeFiles/cpp-invaders.dir/main.cpp.o -c /home/greg/workspace/cpp-invaders/main.cpp",
-  "file": "/home/greg/workspace/cpp-invaders/main.cpp"
-}
-]

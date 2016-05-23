@@ -1,3 +1,0 @@
-repository='external project URL'
-module='http://www.libsdl.org/tmp/SDL-2.0.zip'
-tag=''
