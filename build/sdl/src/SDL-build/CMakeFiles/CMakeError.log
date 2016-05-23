@@ -1,0 +1,884 @@
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e2b9/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0e2b9.dir/build.make CMakeFiles/cmTC_0e2b9.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e2b9.dir/src.c.o
+/usr/bin/cc    -g -O3 -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2   -o CMakeFiles/cmTC_0e2b9.dir/src.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c:1:0: error: -mpreferred-stack-boundary=2 is not between 4 and 12
+ int x = 0; int main(int argc, char **argv) {}
+ ^
+CMakeFiles/cmTC_0e2b9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0e2b9.dir/src.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_0e2b9.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0e2b9/fast' failed
+make[3]: *** [cmTC_0e2b9/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c6108/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c6108.dir/build.make CMakeFiles/cmTC_c6108.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6108.dir/src.c.o
+/usr/bin/cc    -g -O3 -DHAVE_ALTIVEC_H_HDR -maltivec   -o CMakeFiles/cmTC_c6108.dir/src.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option ‘-maltivec’
+CMakeFiles/cmTC_c6108.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c6108.dir/src.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_c6108.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c6108/fast' failed
+make[3]: *** [cmTC_c6108/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_001cc/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_001cc.dir/build.make CMakeFiles/cmTC_001cc.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_001cc.dir/src.c.o
+/usr/bin/cc    -g -O3 -DHAVE_ALTIVEC -maltivec   -o CMakeFiles/cmTC_001cc.dir/src.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option ‘-maltivec’
+CMakeFiles/cmTC_001cc.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_001cc.dir/src.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_001cc.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_001cc/fast' failed
+make[3]: *** [cmTC_001cc/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35fba/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_35fba.dir/build.make CMakeFiles/cmTC_35fba.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35fba.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTC_35fba.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_35fba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35fba.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=strlcpy    CMakeFiles/cmTC_35fba.dir/CheckFunctionExists.c.o  -o cmTC_35fba -rdynamic 
+CMakeFiles/cmTC_35fba.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:14: undefined reference to `strlcpy'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_35fba.dir/build.make:97: recipe for target 'cmTC_35fba' failed
+make[4]: *** [cmTC_35fba] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_35fba/fast' failed
+make[3]: *** [cmTC_35fba/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90ac3/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_90ac3.dir/build.make CMakeFiles/cmTC_90ac3.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90ac3.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTC_90ac3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_90ac3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90ac3.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=strlcat    CMakeFiles/cmTC_90ac3.dir/CheckFunctionExists.c.o  -o cmTC_90ac3 -rdynamic 
+CMakeFiles/cmTC_90ac3.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:14: undefined reference to `strlcat'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_90ac3.dir/build.make:97: recipe for target 'cmTC_90ac3' failed
+make[4]: *** [cmTC_90ac3] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_90ac3/fast' failed
+make[3]: *** [cmTC_90ac3/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _strrev exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4ed4c/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4ed4c.dir/build.make CMakeFiles/cmTC_4ed4c.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ed4c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=_strrev   -o CMakeFiles/cmTC_4ed4c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4ed4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ed4c.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=_strrev    CMakeFiles/cmTC_4ed4c.dir/CheckFunctionExists.c.o  -o cmTC_4ed4c -rdynamic 
+CMakeFiles/cmTC_4ed4c.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:14: undefined reference to `_strrev'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4ed4c.dir/build.make:97: recipe for target 'cmTC_4ed4c' failed
+make[4]: *** [cmTC_4ed4c] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4ed4c/fast' failed
+make[3]: *** [cmTC_4ed4c/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _strupr exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8c76/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e8c76.dir/build.make CMakeFiles/cmTC_e8c76.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8c76.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=_strupr   -o CMakeFiles/cmTC_e8c76.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e8c76
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8c76.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=_strupr    CMakeFiles/cmTC_e8c76.dir/CheckFunctionExists.c.o  -o cmTC_e8c76 -rdynamic 
+CMakeFiles/cmTC_e8c76.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:14: undefined reference to `_strupr'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e8c76.dir/build.make:97: recipe for target 'cmTC_e8c76' failed
+make[4]: *** [cmTC_e8c76] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e8c76/fast' failed
+make[3]: *** [cmTC_e8c76/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _strlwr exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_683ea/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_683ea.dir/build.make CMakeFiles/cmTC_683ea.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_683ea.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=_strlwr   -o CMakeFiles/cmTC_683ea.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_683ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_683ea.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=_strlwr    CMakeFiles/cmTC_683ea.dir/CheckFunctionExists.c.o  -o cmTC_683ea -rdynamic 
+CMakeFiles/cmTC_683ea.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:14: undefined reference to `_strlwr'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_683ea.dir/build.make:97: recipe for target 'cmTC_683ea' failed
+make[4]: *** [cmTC_683ea] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_683ea/fast' failed
+make[3]: *** [cmTC_683ea/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a62ff/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a62ff.dir/build.make CMakeFiles/cmTC_a62ff.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a62ff.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=itoa   -o CMakeFiles/cmTC_a62ff.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a62ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a62ff.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=itoa    CMakeFiles/cmTC_a62ff.dir/CheckFunctionExists.c.o  -o cmTC_a62ff -rdynamic 
+CMakeFiles/cmTC_a62ff.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:14: undefined reference to `itoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a62ff.dir/build.make:97: recipe for target 'cmTC_a62ff' failed
+make[4]: *** [cmTC_a62ff] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a62ff/fast' failed
+make[3]: *** [cmTC_a62ff/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _ltoa exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad58c/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ad58c.dir/build.make CMakeFiles/cmTC_ad58c.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad58c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=_ltoa   -o CMakeFiles/cmTC_ad58c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ad58c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad58c.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=_ltoa    CMakeFiles/cmTC_ad58c.dir/CheckFunctionExists.c.o  -o cmTC_ad58c -rdynamic 
+CMakeFiles/cmTC_ad58c.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:14: undefined reference to `_ltoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ad58c.dir/build.make:97: recipe for target 'cmTC_ad58c' failed
+make[4]: *** [cmTC_ad58c] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ad58c/fast' failed
+make[3]: *** [cmTC_ad58c/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _uitoa exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5924/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b5924.dir/build.make CMakeFiles/cmTC_b5924.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5924.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=_uitoa   -o CMakeFiles/cmTC_b5924.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b5924
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5924.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=_uitoa    CMakeFiles/cmTC_b5924.dir/CheckFunctionExists.c.o  -o cmTC_b5924 -rdynamic 
+CMakeFiles/cmTC_b5924.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:14: undefined reference to `_uitoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b5924.dir/build.make:97: recipe for target 'cmTC_b5924' failed
+make[4]: *** [cmTC_b5924] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b5924/fast' failed
+make[3]: *** [cmTC_b5924/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _ultoa exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9607/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a9607.dir/build.make CMakeFiles/cmTC_a9607.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9607.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=_ultoa   -o CMakeFiles/cmTC_a9607.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a9607
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9607.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=_ultoa    CMakeFiles/cmTC_a9607.dir/CheckFunctionExists.c.o  -o cmTC_a9607 -rdynamic 
+CMakeFiles/cmTC_a9607.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:14: undefined reference to `_ultoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a9607.dir/build.make:97: recipe for target 'cmTC_a9607' failed
+make[4]: *** [cmTC_a9607] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a9607/fast' failed
+make[3]: *** [cmTC_a9607/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _i64toa exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87609/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_87609.dir/build.make CMakeFiles/cmTC_87609.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87609.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=_i64toa   -o CMakeFiles/cmTC_87609.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_87609
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87609.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=_i64toa    CMakeFiles/cmTC_87609.dir/CheckFunctionExists.c.o  -o cmTC_87609 -rdynamic 
+CMakeFiles/cmTC_87609.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:14: undefined reference to `_i64toa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_87609.dir/build.make:97: recipe for target 'cmTC_87609' failed
+make[4]: *** [cmTC_87609] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_87609/fast' failed
+make[3]: *** [cmTC_87609/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _ui64toa exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_458a7/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_458a7.dir/build.make CMakeFiles/cmTC_458a7.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_458a7.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=_ui64toa   -o CMakeFiles/cmTC_458a7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_458a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_458a7.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=_ui64toa    CMakeFiles/cmTC_458a7.dir/CheckFunctionExists.c.o  -o cmTC_458a7 -rdynamic 
+CMakeFiles/cmTC_458a7.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:14: undefined reference to `_ui64toa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_458a7.dir/build.make:97: recipe for target 'cmTC_458a7' failed
+make[4]: *** [cmTC_458a7] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_458a7/fast' failed
+make[3]: *** [cmTC_458a7/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4cc4b/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4cc4b.dir/build.make CMakeFiles/cmTC_4cc4b.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4cc4b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=_stricmp   -o CMakeFiles/cmTC_4cc4b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4cc4b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cc4b.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=_stricmp    CMakeFiles/cmTC_4cc4b.dir/CheckFunctionExists.c.o  -o cmTC_4cc4b -rdynamic 
+CMakeFiles/cmTC_4cc4b.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:14: undefined reference to `_stricmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4cc4b.dir/build.make:97: recipe for target 'cmTC_4cc4b' failed
+make[4]: *** [cmTC_4cc4b] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4cc4b/fast' failed
+make[3]: *** [cmTC_4cc4b/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50ae6/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_50ae6.dir/build.make CMakeFiles/cmTC_50ae6.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50ae6.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=_strnicmp   -o CMakeFiles/cmTC_50ae6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_50ae6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50ae6.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=_strnicmp    CMakeFiles/cmTC_50ae6.dir/CheckFunctionExists.c.o  -o cmTC_50ae6 -rdynamic 
+CMakeFiles/cmTC_50ae6.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:14: undefined reference to `_strnicmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_50ae6.dir/build.make:97: recipe for target 'cmTC_50ae6' failed
+make[4]: *** [cmTC_50ae6] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_50ae6/fast' failed
+make[3]: *** [cmTC_50ae6/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sysctlbyname exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3be0/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f3be0.dir/build.make CMakeFiles/cmTC_f3be0.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3be0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=sysctlbyname   -o CMakeFiles/cmTC_f3be0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f3be0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3be0.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=sysctlbyname    CMakeFiles/cmTC_f3be0.dir/CheckFunctionExists.c.o  -o cmTC_f3be0 -rdynamic 
+CMakeFiles/cmTC_f3be0.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:14: undefined reference to `sysctlbyname'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f3be0.dir/build.make:97: recipe for target 'cmTC_f3be0' failed
+make[4]: *** [cmTC_f3be0] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f3be0/fast' failed
+make[3]: *** [cmTC_f3be0/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9be13/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9be13.dir/build.make CMakeFiles/cmTC_9be13.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9be13.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=iconv_open   -o CMakeFiles/cmTC_9be13.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9be13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9be13.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=iconv_open    CMakeFiles/cmTC_9be13.dir/CheckFunctionExists.c.o  -o cmTC_9be13 -rdynamic -liconv 
+/usr/bin/ld: cannot find -liconv
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9be13.dir/build.make:97: recipe for target 'cmTC_9be13' failed
+make[4]: *** [cmTC_9be13] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9be13/fast' failed
+make[3]: *** [cmTC_9be13/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_298ed/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_298ed.dir/build.make CMakeFiles/cmTC_298ed.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_298ed.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=alloca   -o CMakeFiles/cmTC_298ed.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘alloca’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_298ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_298ed.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=alloca    CMakeFiles/cmTC_298ed.dir/CheckFunctionExists.c.o  -o cmTC_298ed -rdynamic 
+CMakeFiles/cmTC_298ed.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:14: undefined reference to `alloca'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_298ed.dir/build.make:97: recipe for target 'cmTC_298ed' failed
+make[4]: *** [cmTC_298ed] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_298ed/fast' failed
+make[3]: *** [cmTC_298ed/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dlopen exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_050a7/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_050a7.dir/build.make CMakeFiles/cmTC_050a7.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_050a7.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_050a7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_050a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_050a7.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTC_050a7.dir/CheckFunctionExists.c.o  -o cmTC_050a7 -rdynamic 
+CMakeFiles/cmTC_050a7.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:14: undefined reference to `dlopen'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_050a7.dir/build.make:97: recipe for target 'cmTC_050a7' failed
+make[4]: *** [cmTC_050a7] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_050a7/fast' failed
+make[3]: *** [cmTC_050a7/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file alsa/asoundlib.h exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26843/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_26843.dir/build.make CMakeFiles/cmTC_26843.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26843.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -g -O3    -o CMakeFiles/cmTC_26843.dir/CheckIncludeFile.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: alsa/asoundlib.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_26843.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_26843.dir/CheckIncludeFile.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_26843.dir/CheckIncludeFile.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_26843/fast' failed
+make[3]: *** [cmTC_26843/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file audio/audiolib.h exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97f54/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_97f54.dir/build.make CMakeFiles/cmTC_97f54.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97f54.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -g -O3    -o CMakeFiles/cmTC_97f54.dir/CheckIncludeFile.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: audio/audiolib.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_97f54.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_97f54.dir/CheckIncludeFile.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_97f54.dir/CheckIncludeFile.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_97f54/fast' failed
+make[3]: *** [cmTC_97f54/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sndio.h exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6e25b/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6e25b.dir/build.make CMakeFiles/cmTC_6e25b.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e25b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -g -O3    -o CMakeFiles/cmTC_6e25b.dir/CheckIncludeFile.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:19: fatal error: sndio.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_6e25b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6e25b.dir/CheckIncludeFile.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_6e25b.dir/CheckIncludeFile.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6e25b/fast' failed
+make[3]: *** [cmTC_6e25b/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_VIDEO_RPI failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa6c7/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fa6c7.dir/build.make CMakeFiles/cmTC_fa6c7.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa6c7.dir/src.c.o
+/usr/bin/cc    -g -O3 -DHAVE_VIDEO_RPI -I/opt/vc/include/interface/vmcs_host/linux/ -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include  -L/opt/vc/lib   -o CMakeFiles/cmTC_fa6c7.dir/src.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c:2:30: fatal error: bcm_host.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_fa6c7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_fa6c7.dir/src.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_fa6c7.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fa6c7/fast' failed
+make[3]: *** [cmTC_fa6c7/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #include <bcm_host.h>
+        int main(int argc, char **argv) {}
+Determining if the include file X11/extensions/scrnsaver.h exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ebe66/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ebe66.dir/build.make CMakeFiles/cmTC_ebe66.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ebe66.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -g -O3    -o CMakeFiles/cmTC_ebe66.dir/CheckIncludeFile.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:38: fatal error: X11/extensions/scrnsaver.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_ebe66.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ebe66.dir/CheckIncludeFile.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_ebe66.dir/CheckIncludeFile.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ebe66/fast' failed
+make[3]: *** [cmTC_ebe66/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGLES_V1 failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b41c/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4b41c.dir/build.make CMakeFiles/cmTC_4b41c.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b41c.dir/src.c.o
+/usr/bin/cc    -g -O3 -DHAVE_VIDEO_OPENGLES_V1   -o CMakeFiles/cmTC_4b41c.dir/src.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c:2:27: fatal error: GLES/gl.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_4b41c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4b41c.dir/src.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_4b41c.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4b41c/fast' failed
+make[3]: *** [cmTC_4b41c/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+      #include <GLES/gl.h>
+      #include <GLES/glext.h>
+      int main (int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGLES_V2 failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f577/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8f577.dir/build.make CMakeFiles/cmTC_8f577.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f577.dir/src.c.o
+/usr/bin/cc    -g -O3 -DHAVE_VIDEO_OPENGLES_V2   -o CMakeFiles/cmTC_8f577.dir/src.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c:2:29: fatal error: GLES2/gl2.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_8f577.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8f577.dir/src.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_8f577.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8f577/fast' failed
+make[3]: *** [cmTC_8f577/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+      #include <GLES2/gl2.h>
+      #include <GLES2/gl2ext.h>
+      int main (int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_VIVANTE_VDK failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_891dc/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_891dc.dir/build.make CMakeFiles/cmTC_891dc.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_891dc.dir/src.c.o
+/usr/bin/cc    -g -O3 -DHAVE_VIDEO_VIVANTE_VDK   -o CMakeFiles/cmTC_891dc.dir/src.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c:2:28: fatal error: gc_vdk.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_891dc.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_891dc.dir/src.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_891dc.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_891dc/fast' failed
+make[3]: *** [cmTC_891dc/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #include <gc_vdk.h>
+        int main(int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_VIVANTE_EGL_FB failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74ab4/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_74ab4.dir/build.make CMakeFiles/cmTC_74ab4.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74ab4.dir/src.c.o
+/usr/bin/cc    -g -O3 -DHAVE_VIDEO_VIVANTE_EGL_FB   -o CMakeFiles/cmTC_74ab4.dir/src.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c:4:36: fatal error: EGL/eglvivante.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_74ab4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_74ab4.dir/src.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_74ab4.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_74ab4/fast' failed
+make[3]: *** [cmTC_74ab4/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #define LINUX
+        #define EGL_API_FB
+        #include <EGL/eglvivante.h>
+        int main(int argc, char** argv) {}
+Determining if the include file libudev.h exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ebbc/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0ebbc.dir/build.make CMakeFiles/cmTC_0ebbc.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ebbc.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -g -O3    -o CMakeFiles/cmTC_0ebbc.dir/CheckIncludeFile.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: libudev.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_0ebbc.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0ebbc.dir/CheckIncludeFile.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_0ebbc.dir/CheckIncludeFile.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0ebbc/fast' failed
+make[3]: *** [cmTC_0ebbc/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dbus/dbus.h exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_438c5/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_438c5.dir/build.make CMakeFiles/cmTC_438c5.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_438c5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -g -O3    -o CMakeFiles/cmTC_438c5.dir/CheckIncludeFile.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:23: fatal error: dbus/dbus.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_438c5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_438c5.dir/CheckIncludeFile.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_438c5.dir/CheckIncludeFile.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_438c5/fast' failed
+make[3]: *** [cmTC_438c5/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_INPUT_TSLIB failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_66dbd/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_66dbd.dir/build.make CMakeFiles/cmTC_66dbd.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66dbd.dir/src.c.o
+/usr/bin/cc    -g -O3 -DHAVE_INPUT_TSLIB   -o CMakeFiles/cmTC_66dbd.dir/src.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c:2:27: fatal error: tslib.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_66dbd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_66dbd.dir/src.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_66dbd.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_66dbd/fast' failed
+make[3]: *** [cmTC_66dbd/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #include "tslib.h"
+        int main(int argc, char** argv) { }
+Determining if the function hid_init exists in the usbhid failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce8ff/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ce8ff.dir/build.make CMakeFiles/cmTC_ce8ff.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce8ff.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=hid_init   -o CMakeFiles/cmTC_ce8ff.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ce8ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce8ff.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=hid_init    CMakeFiles/cmTC_ce8ff.dir/CheckFunctionExists.c.o  -o cmTC_ce8ff -rdynamic -lusbhid 
+/usr/bin/ld: cannot find -lusbhid
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ce8ff.dir/build.make:97: recipe for target 'cmTC_ce8ff' failed
+make[4]: *** [cmTC_ce8ff] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ce8ff/fast' failed
+make[3]: *** [cmTC_ce8ff/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file usb.h exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91a43/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_91a43.dir/build.make CMakeFiles/cmTC_91a43.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91a43.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -g -O3    -o CMakeFiles/cmTC_91a43.dir/CheckIncludeFile.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:17: fatal error: usb.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_91a43.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_91a43.dir/CheckIncludeFile.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_91a43.dir/CheckIncludeFile.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_91a43/fast' failed
+make[3]: *** [cmTC_91a43/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file libusb.h exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0dc4/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a0dc4.dir/build.make CMakeFiles/cmTC_a0dc4.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0dc4.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -g -O3    -o CMakeFiles/cmTC_a0dc4.dir/CheckIncludeFile.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:20: fatal error: libusb.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_a0dc4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a0dc4.dir/CheckIncludeFile.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_a0dc4.dir/CheckIncludeFile.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a0dc4/fast' failed
+make[3]: *** [cmTC_a0dc4/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function hid_init exists in the usb failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41550/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_41550.dir/build.make CMakeFiles/cmTC_41550.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41550.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=hid_init   -o CMakeFiles/cmTC_41550.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_41550
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41550.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=hid_init    CMakeFiles/cmTC_41550.dir/CheckFunctionExists.c.o  -o cmTC_41550 -rdynamic -lusb 
+/usr/bin/ld: cannot find -lusb
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_41550.dir/build.make:97: recipe for target 'cmTC_41550' failed
+make[4]: *** [cmTC_41550] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_41550/fast' failed
+make[3]: *** [cmTC_41550/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_USBHID failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6290d/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6290d.dir/build.make CMakeFiles/cmTC_6290d.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6290d.dir/src.c.o
+/usr/bin/cc    -g -O3 -DHAVE_USBHID   -o CMakeFiles/cmTC_6290d.dir/src.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c:10:34: fatal error: dev/usb/usb.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_6290d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6290d.dir/src.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_6290d.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6290d/fast' failed
+make[3]: *** [cmTC_6290d/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+       #include <sys/types.h>
+        #if defined(HAVE_USB_H)
+        #include <usb.h>
+        #endif
+        #ifdef __DragonFly__
+        # include <bus/usb/usb.h>
+        # include <bus/usb/usbhid.h>
+        #else
+        # include <dev/usb/usb.h>
+        # include <dev/usb/usbhid.h>
+        #endif
+        #if defined(HAVE_USBHID_H)
+        #include <usbhid.h>
+        #elif defined(HAVE_LIBUSB_H)
+        #include <libusb.h>
+        #elif defined(HAVE_LIBUSBHID_H)
+        #include <libusbhid.h>
+        #endif
+        int main(int argc, char **argv) {
+          struct report_desc *repdesc;
+          struct usb_ctl_report *repbuf;
+          hid_kind_t hidkind;
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREAD_NP_H failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15f3f/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_15f3f.dir/build.make CMakeFiles/cmTC_15f3f.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15f3f.dir/src.c.o
+/usr/bin/cc    -g -O3 -DHAVE_PTHREAD_NP_H -D_REENTRANT -pthread   -o CMakeFiles/cmTC_15f3f.dir/src.c.o   -c /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp/src.c:3:34: fatal error: pthread_np.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_15f3f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_15f3f.dir/src.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_15f3f.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_15f3f/fast' failed
+make[3]: *** [cmTC_15f3f/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+          #include <pthread.h>
+          #include <pthread_np.h>
+          int main(int argc, char** argv) { return 0; }
+Determining if the function pthread_set_name_np exists failed with the following output:
+Change Dir: /home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_29528/fast"
+make[3]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_29528.dir/build.make CMakeFiles/cmTC_29528.dir/build
+make[4]: Entering directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29528.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O3 -DCHECK_FUNCTION_EXISTS=pthread_set_name_np -D_REENTRANT -pthread   -o CMakeFiles/cmTC_29528.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_29528
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29528.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O3 -DCHECK_FUNCTION_EXISTS=pthread_set_name_np -D_REENTRANT -pthread    CMakeFiles/cmTC_29528.dir/CheckFunctionExists.c.o  -o cmTC_29528 -rdynamic 
+CMakeFiles/cmTC_29528.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:14: undefined reference to `pthread_set_name_np'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_29528.dir/build.make:97: recipe for target 'cmTC_29528' failed
+make[4]: *** [cmTC_29528] Error 1
+make[4]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_29528/fast' failed
+make[3]: *** [cmTC_29528/fast] Error 2
+make[3]: Leaving directory '/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-build/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,13 @@
+# Target labels
+ SDL
+# Source files and their labels
+/home/greg/workspace/cpp-invaders/build/CMakeFiles/SDL
+/home/greg/workspace/cpp-invaders/build/CMakeFiles/SDL.rule
+/home/greg/workspace/cpp-invaders/build/CMakeFiles/SDL-complete.rule
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-stamp/SDL-install.rule
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-stamp/SDL-mkdir.rule
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-stamp/SDL-download.rule
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-stamp/SDL-update.rule
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-stamp/SDL-patch.rule
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-stamp/SDL-configure.rule
+/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-stamp/SDL-build.rule

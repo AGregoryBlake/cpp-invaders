@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/greg/workspace/cpp-invaders/build/CMakeFiles/SDL"
+		},
+		{
+			"file" : "/home/greg/workspace/cpp-invaders/build/CMakeFiles/SDL.rule"
+		},
+		{
+			"file" : "/home/greg/workspace/cpp-invaders/build/CMakeFiles/SDL-complete.rule"
+		},
+		{
+			"file" : "/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-stamp/SDL-install.rule"
+		},
+		{
+			"file" : "/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-stamp/SDL-mkdir.rule"
+		},
+		{
+			"file" : "/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-stamp/SDL-download.rule"
+		},
+		{
+			"file" : "/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-stamp/SDL-update.rule"
+		},
+		{
+			"file" : "/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-stamp/SDL-patch.rule"
+		},
+		{
+			"file" : "/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-stamp/SDL-configure.rule"
+		},
+		{
+			"file" : "/home/greg/workspace/cpp-invaders/build/sdl/src/SDL-stamp/SDL-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"SDL"
+		],
+		"name" : "SDL"
+	}
+}
